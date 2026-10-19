@@ -1,0 +1,189 @@
+{
+  "event": {
+    "pageTitle": "?????? Vol.2 ? 2???????",
+    "fanNotice": "★ 非公式ファンサイト / UNOFFICIAL FAN SITE",
+    "fanNoticeSub": "?????? Vol.2",
+    "brand": "NAZO NO DOSOKAI",
+    "venueLabel": "AKABANE ReNY alpha / 2026",
+    "eyebrow": "Reunion Live Setlist",
+    "title": "なぞの同窓会",
+    "subtitle": "VOL. 2 ? SECOND SHOW",
+    "note": "?????Sana?SASEBO BROTHERS?????????MAKI?????? ?????????????2??",
+    "date": "2026.01.11",
+    "dateNote": "SUNDAY / AKABANE ReNY alpha",
+    "showCount": "02",
+    "listLabel": "THE SETLIST / 2部",
+    "footerLeft": "?????? Vol.2 ? 2???????",
+    "footerRight": "2026?1?11? / ??ReNY alpha"
+  },
+  "tracks": [
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/9/93/STREET-popn6banner.png/revision/latest?cb=20250414161837",
+      "title": "Flapper",
+      "detail": "Pop'n Music 6 (CS) ストリート",
+      "info": "https://popnmusic.fandom.com/wiki/Flapper",
+      "video": "https://www.youtube.com/watch?v=tEO6CXEdX1I"
+    },
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/8/86/CS7_SHUFFLE.png/revision/latest/scale-to-width-down/268?cb=20130611140900",
+      "title": "エピキュリアンへの少数意見",
+      "detail": "Pop'n Music 7 (CS) シャッフル",
+      "info": "https://popnmusic.fandom.com/wiki/Epicurean_he_no_Shousuiken",
+      "video": "https://www.youtube.com/watch?v=QW9LVdQ6bGs"
+    },
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/4/44/CS8_MEDIUM.png/revision/latest?cb=20250408181619",
+      "title": "顔について",
+      "detail": "Pop'n Music 8 (CS) ミディアム",
+      "info": "https://popnmusic.fandom.com/wiki/Kao_ni_tsuite",
+      "video": "https://www.youtube.com/watch?v=9LxlBpzYcrY"
+    },
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://tcj-image-production.s3-ap-northeast-1.amazonaws.com/u22876/r1401512/ite1401512.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJV4VIS2VN3X4CBGA%2F20260111%2Fap-northeast-1%2Fs3%2Faws4_request&X-Amz-Date=20260111T092154Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=720cf6549d80691305a374846a953b860e0f8d7528b4c8627b8b13eb99aeca12",
+      "title": "CHURURURU CHU CHU CHU CHURU YEAH!",
+      "detail": "",
+      "info": "https://linkco.re/MFMTez1C?lang=ja",
+      "video": ""
+    },
+    {
+      "artist": "",
+      "image": "https://remywiki.com/images/thumb/4/40/Less.png/200px-Less.png",
+      "title": "less",
+      "detail": "GUITARFREAKS 9thMIX drummania 8thMIX",
+      "info": "https://remywiki.com/Less",
+      "video": "https://www.youtube.com/watch?v=3qr6wMQh4ss"
+    },
+    {
+      "artist": "",
+      "image": "https://sho.jp/wp-content/uploads/2021/06/bb210618_001.jpg",
+      "title": "おどってにゅうダンス",
+      "detail": "TV番組「シナぷしゅ」より",
+      "info": "https://linkco.re/m4utbV0S",
+      "video": "https://www.youtube.com/watch?v=ZJChxX31jg8"
+    },
+    {
+      "artist": "",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/2/21/7_SHOWA_KAYO.png/revision/latest?cb=20250526175617",
+      "title": "林檎と蜂蜜",
+      "detail": "Pop'n Music 7 (AC) ショウワカヨウ",
+      "info": "https://popnmusic.fandom.com/wiki/Ringo_to_Hachimitsu",
+      "video": "https://www.youtube.com/watch?v=18mgxY7h1Tg"
+    },
+    {
+      "artist": "すわひでお",
+      "image": "https://eccdn-endpoint01.azureedge.net/eccdncont/upload/save_image/03191105_5e72d381e4127.jpg?sv=2019-12-12&ss=b&srt=co&sp=rwdlacx&se=2050-12-30T17:56:53Z&st=2020-12-23T09:56:53Z&spr=https&sig=4hZWr%2B6m8EGNYSECm203xIH54EBhR4Th4N%2B9lHq%2BIeY%3D",
+      "title": "俺ら東京さ行ぐだ",
+      "detail": "beatmania IIDX 27 HEROIC VERSE",
+      "info": "https://remywiki.com/Ora_Tokyo_sa_iguda",
+      "video": "https://www.youtube.com/watch?v=CWO_hgLI2TQ"
+    },
+    {
+      "artist": "すわひでお",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/b/be/CS9_TAKKYU_BOOGIE.png/revision/latest?cb=20250320115253",
+      "title": "Ping Pong Boogie",
+      "detail": "Pop'n Music 9 (CS) タッキュウブギ",
+      "info": "https://popnmusic.fandom.com/wiki/Ping_Pong_Boogie",
+      "video": "https://www.youtube.com/watch?v=NCyxn6k0ggI"
+    },
+    {
+      "artist": "すわひでお",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/7/7e/8_YAKYU_ROCK.png/revision/latest?cb=20241211040951",
+      "title": "恋のキャッチボール",
+      "detail": "Pop'n Music 8 (AC) ヤキュウロック",
+      "info": "https://popnmusic.fandom.com/wiki/Koi_no_Catchball",
+      "video": "https://www.youtube.com/watch?v=4ga0qXtiHYw"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/b/bf/CS7_MODERN%2780.png/revision/latest?cb=20250610222245",
+      "title": "翔べない天使",
+      "detail": "Pop'n Music 7 (CS) モダン'80",
+      "info": "https://popnmusic.fandom.com/wiki/Tobenai_tenshi",
+      "video": "https://www.youtube.com/watch?v=bAAgeXpA0u8"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://u-watch.jp/entertainments/apps/img/single/SID0032915.webp",
+      "title": "チェリ・ガール",
+      "detail": "アニメ「わがまま☆フェアリーミルモでポン!ちゃあみんぐ」ED曲",
+      "info": "",
+      "video": "https://www.youtube.com/watch?v=83etlu9hezU"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://m.media-amazon.com/images/I/41KLoia4BQL._AC_.jpg",
+      "title": "駅",
+      "detail": "ポップンミュージック アーティスト・コレクション 新谷さなえ ※パーキッツ楽曲のカバー",
+      "info": "https://remywiki.com/Pop%27n_music_Artist_Collection_Sanae_Shintani",
+      "video": "https://www.youtube.com/watch?v=-AJMp_OZv5I"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/8/8e/CS2_J-GARAGE_POP.png/revision/latest?cb=20250410234432",
+      "title": "Miracle Moon",
+      "detail": "Pop'n Music 3 Jガラージポップ ※beatmania APPEND GOTTAMIX",
+      "info": "https://popnmusic.fandom.com/wiki/Miracle_Moon(Otsukisama_ga_chuukeikyoku)",
+      "video": "https://www.youtube.com/watch?v=NJJ18aB2Ggk"
+    },
+    {
+      "artist": "フレディ波多江",
+      "image": "",
+      "title": "銀河鉄道999",
+      "detail": "劇場版アニメ「銀河鉄道999」ED曲 ※ゴダイゴ楽曲のカバー",
+      "info": "https://ja.wikipedia.org/wiki/%E9%8A%80%E6%B2%B3%E9%89%84%E9%81%93999_(%E3%82%B4%E3%83%80%E3%82%A4%E3%82%B4%E3%81%AE%E6%9B%B2)",
+      "video": "https://www.youtube.com/watch?v=uTqUiqszKAg"
+    },
+    {
+      "artist": "フレディ波多江",
+      "image": "",
+      "title": "We Will Rock You",
+      "detail": "※Queen楽曲のカバー",
+      "info": "https://ja.wikipedia.org/wiki/%E3%82%A6%E3%82%A3%E3%83%BB%E3%82%A6%E3%82%A3%E3%83%AB%E3%83%BB%E3%83%AD%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A6%E3%83%BC",
+      "video": "https://www.youtube.com/watch?v=-tJYN-eG1zk"
+    },
+    {
+      "artist": "フレディ波多江",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/f/fe/7_DARKNESS.png/revision/latest?cb=20250522193454",
+      "title": "電気人形",
+      "detail": "Pop'n Music 7 (AC) ダークネス",
+      "info": "https://popnmusic.fandom.com/wiki/Denki_Ningyou",
+      "video": "https://www.youtube.com/watch?v=J1-m3BTjtlA"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/4/41/10_DIGI_FOLK.png/revision/latest?cb=20241202155746",
+      "title": "ナーバス ブレークダウン～タイプゼロ～",
+      "detail": "Pop'n Music 10 (AC) デジフォーク",
+      "info": "https://popnmusic.fandom.com/wiki/NERVOUS_BREAKDOWN~TYPE_ZERO~",
+      "video": "https://www.youtube.com/watch?v=r33Zw4fqv4Q"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/0/07/POWERFOLK7-popn6banner.png/revision/latest?cb=20250413230702",
+      "title": "Shake!",
+      "detail": "Pop'n Music 6 (CS) パワーフォーク7",
+      "info": "https://popnmusic.fandom.com/wiki/Shake!_-Game_Ver.-",
+      "video": "https://www.youtube.com/watch?v=ZYCexu48w_E"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/d/d6/8_POWERFOLK_6.png/revision/latest?cb=20241212015849",
+      "title": "Fashion",
+      "detail": "Pop'n Music 8 (AC) パワーフォーク6",
+      "info": "https://popnmusic.fandom.com/wiki/Fashion_%EF%BD%9Ever.1%EF%BD%9E",
+      "video": "https://www.youtube.com/watch?v=Tyr7ZDNaUMo"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/b/be/4_POWER_FOLK_2.png/revision/latest?cb=20250121173807",
+      "title": "君を壊したい",
+      "detail": "Pop'n Music 4 (AC) パワーフォーク2",
+      "info": "https://popnmusic.fandom.com/wiki/Kimi_wo_kowashitai",
+      "video": "https://www.youtube.com/watch?v=poWgWdOwj00"
+    }
+  ]
+}
