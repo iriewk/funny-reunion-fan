@@ -1,0 +1,709 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171816">
+  <title>なぞの同窓会 Vol.1 — 2部セットリスト</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #171816;
+      --panel: #22231f;
+      --panel-soft: #292a25;
+      --text: #f5f1e8;
+      --muted: #aaa99f;
+      --line: #414139;
+      --accent: #d5fb62;
+      --orange: #ff835e;
+      --serif: Georgia, "Yu Mincho", "Hiragino Mincho ProN", serif;
+      --sans: "Inter", "Yu Gothic UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(ellipse at 88% 5%, rgb(213 251 98 / 8%), transparent 30rem),
+        var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+
+    .page-shell {
+      width: min(1120px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .masthead {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-block: 25px;
+      border-bottom: 1px solid var(--line);
+      color: var(--muted);
+      font-size: .72rem;
+      letter-spacing: .17em;
+      text-transform: uppercase;
+    }
+
+    .brand { color: var(--accent); font-weight: 800; }
+
+    :root { --fanbar-h: 40px; }
+    .fanbar {
+      position: fixed;
+      inset: 0 0 auto 0;
+      z-index: 10;
+      height: var(--fanbar-h);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding-inline: 12px;
+      background: var(--accent);
+      color: #171816;
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      white-space: nowrap;
+      box-shadow: 0 2px 18px rgb(0 0 0 / 45%);
+    }
+    .fanbar small { font-weight: 600; letter-spacing: .06em; opacity: .75; }
+    body { padding-top: var(--fanbar-h); }
+
+    .hero {
+      position: relative;
+      padding: clamp(68px, 12vw, 144px) 0 74px;
+      overflow: hidden;
+    }
+
+    .hero::after {
+      position: absolute;
+      z-index: -1;
+      top: 4%;
+      right: 5%;
+      width: clamp(150px, 25vw, 300px);
+      aspect-ratio: 1;
+      border: 1px solid rgb(213 251 98 / 25%);
+      border-radius: 50%;
+      box-shadow: 0 0 0 24px rgb(213 251 98 / 3%), 0 0 0 48px rgb(213 251 98 / 2%);
+      content: "";
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--accent);
+      font-size: .76rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before { width: 28px; height: 1px; background: currentColor; content: ""; }
+
+    h1 {
+      max-width: 780px;
+      margin: 22px 0 18px;
+      font-family: var(--serif);
+      font-size: clamp(3rem, 8.4vw, 7.5rem);
+      font-weight: 500;
+      letter-spacing: -.065em;
+      line-height: .98;
+    }
+
+    h1 .title-main { display: inline; margin: 0; color: inherit; font: inherit; letter-spacing: inherit; }
+
+    h1 span:not(.title-main) {
+      display: block;
+      margin-top: 16px;
+      color: var(--accent);
+      font-family: var(--sans);
+      font-size: .34em;
+      font-weight: 800;
+      letter-spacing: .13em;
+    }
+
+    .hero-note { color: var(--muted); font-size: .94rem; }
+
+    .hero-bottom {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: 56px;
+    }
+
+    .event-date {
+      font-family: var(--serif);
+      font-size: clamp(1.5rem, 3vw, 2.2rem);
+    }
+
+    .event-date small {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-family: var(--sans);
+      font-size: .7rem;
+      letter-spacing: .16em;
+    }
+
+    .stats { display: flex; gap: clamp(20px, 5vw, 60px); }
+    .stat strong { display: block; color: var(--accent); font-size: 1.4rem; }
+    .stat span { color: var(--muted); font-size: .68rem; letter-spacing: .1em; }
+
+    .toolbar {
+      position: sticky;
+      z-index: 2;
+      top: var(--fanbar-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding-block: 16px;
+      background: rgb(23 24 22 / 92%);
+      border-block: 1px solid var(--line);
+      backdrop-filter: blur(14px);
+    }
+
+    .section-label { color: var(--muted); font-size: .72rem; letter-spacing: .14em; }
+
+    .search {
+      width: min(270px, 52vw);
+      padding: 10px 14px;
+      color: var(--text);
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 3px;
+      font: inherit;
+      font-size: .82rem;
+      outline: none;
+    }
+
+    .search:focus { border-color: var(--accent); }
+    .search::placeholder { color: #85857c; }
+
+    #artists { padding: 34px 0 90px; }
+
+    .artist-section { margin-bottom: 58px; }
+
+    .artist-heading {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin-bottom: 17px;
+    }
+
+    .artist-heading h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 500;
+    }
+
+    .artist-count { color: var(--muted); font-size: .73rem; }
+
+    .surprise {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      padding: 4px 9px;
+      color: var(--bg);
+      background: var(--orange);
+      border-radius: 2px;
+      font-size: .64rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+    }
+
+    .track-list { display: grid; gap: 10px; }
+
+    .track {
+      display: grid;
+      grid-template-columns: 52px 300px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 18px;
+      min-height: 112px;
+      padding: 12px 18px 12px 14px;
+      background: linear-gradient(110deg, var(--panel), #20211e);
+      border: 1px solid transparent;
+      border-radius: 5px;
+      transition: border-color .2s, transform .2s, background .2s;
+    }
+
+    .track:hover { transform: translateY(-2px); background: var(--panel-soft); border-color: #505044; }
+
+    .track-number {
+      color: #77776e;
+      font-size: .8rem;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: .08em;
+      text-align: center;
+    }
+
+    .cover {
+      display: block;
+      width: min(300px, 100%);
+      aspect-ratio: 32 / 9;
+      object-fit: contain;
+      background: #34352e;
+      border-radius: 3px;
+    }
+
+    .cover-fallback {
+      display: grid;
+      place-items: center;
+      width: min(300px, 100%);
+      aspect-ratio: 32 / 9;
+      color: var(--accent);
+      background: #34352e;
+      border-radius: 3px;
+      font-family: var(--serif);
+      font-size: 1.4rem;
+    }
+
+    .track-title { margin: 0; font-size: 1.08rem; font-weight: 650; }
+    .track-detail { margin: 5px 0 0; color: var(--muted); font-size: .77rem; overflow-wrap: anywhere; }
+
+    .track-links { display: flex; gap: 8px; }
+
+    .track-links a,
+    .track-links button {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      color: var(--muted);
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: .67rem;
+      font-family: inherit;
+      text-decoration: none;
+      transition: color .2s, border-color .2s;
+    }
+
+    .track-links a:hover,
+    .track-links button:hover,
+    .track-links button[aria-expanded="true"] { color: var(--accent); border-color: var(--accent); }
+    .track-links a[hidden] { display: none; }
+    .player-dock {
+      position: fixed;
+      z-index: 5;
+      right: 24px;
+      bottom: 24px;
+      width: min(440px, calc(100vw - 48px));
+      overflow: hidden;
+      background: var(--panel);
+      border: 1px solid #59594d;
+      border-radius: 8px;
+      box-shadow: 0 18px 60px rgb(0 0 0 / 60%);
+    }
+
+    .player-dock[hidden] { display: none; }
+    .track.is-playing { outline: 1px solid var(--accent); }
+
+    .player-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 46px;
+      padding: 7px 12px 7px 16px;
+    }
+
+    .player-title {
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow: hidden;
+      color: var(--text);
+      font-size: .78rem;
+      font-weight: 650;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .player-close {
+      display: grid;
+      flex: 0 0 auto;
+      place-items: center;
+      width: 30px;
+      height: 30px;
+      color: var(--muted);
+      background: transparent;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .player-close:hover { color: var(--accent); border-color: var(--accent); }
+
+    .video-frame { width: 100%; background: #000; aspect-ratio: 16 / 9; }
+    .video-frame iframe { display: block; width: 100%; height: 100%; border: 0; }
+    .embed-notice {
+      margin: 20px auto 0;
+      padding: 12px 16px;
+      color: var(--muted);
+      background: var(--panel);
+      border-left: 2px solid var(--orange);
+      font-size: .8rem;
+    }
+
+    .embed-notice[hidden] { display: none; }
+    .empty-state { padding: 40px 0; color: var(--muted); text-align: center; }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding-block: 24px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: .7rem;
+    }
+
+    @media (max-width: 640px) {
+      .page-shell { width: min(100% - 28px, 1120px); }
+      .masthead { font-size: .62rem; }
+      :root { --fanbar-h: 36px; }
+      .fanbar { font-size: .68rem; letter-spacing: .06em; }
+      .fanbar small { display: none; }
+      .hero { padding-top: 76px; }
+      .hero-bottom { align-items: start; flex-direction: column; margin-top: 38px; }
+      .stats { width: 100%; justify-content: space-between; }
+      .track { grid-template-columns: 28px minmax(0, 1fr); gap: 11px; padding: 11px; }
+      .cover, .cover-fallback { grid-column: 2; width: min(300px, 100%); }
+      .track > div:not(.track-links) { grid-column: 2; min-width: 0; }
+      .track-links { grid-column: 2; }
+      .track-links a, .track-links button { width: 32px; height: 32px; }
+      .player-dock { right: 12px; bottom: 12px; width: calc(100vw - 24px); }
+      .track-title { font-size: .98rem; }
+      .track-detail { font-size: .7rem; }
+      footer { flex-direction: column; gap: 5px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="fanbar" role="note"><span data-event="fanNotice">★ 非公式ファンサイト / UNOFFICIAL FAN SITE</span> <small data-event="fanNoticeSub"></small></div>
+  <header class="page-shell masthead">
+    <span class="brand" data-event="brand"></span>
+    <span data-event="venueLabel"></span>
+  </header>
+
+  <main>
+    <section class="page-shell hero" aria-labelledby="page-title">
+      <div class="eyebrow" data-event="eyebrow"></div>
+      <h1 id="page-title"><span class="title-main" data-event="title"></span><span data-event="subtitle"></span></h1>
+      <p class="hero-note" data-event="note"></p>
+      <div class="hero-bottom">
+        <div class="event-date"><span data-event="date"></span> <small data-event="dateNote"></small></div>
+        <div class="stats" aria-label="セットリスト概要">
+          <div class="stat"><strong id="song-total">--</strong><span>SONGS</span></div>
+          <div class="stat"><strong id="artist-total">--</strong><span>ARTISTS</span></div>
+          <div class="stat"><strong data-event="showCount"></strong><span>SHOW</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="page-shell toolbar">
+      <span class="section-label" data-event="listLabel"></span>
+      <label>
+        <span class="section-label" style="position:absolute;clip:rect(0,0,0,0)">曲名・アーティストで検索</span>
+        <input class="search" id="search" type="search" placeholder="曲名・アーティストで検索…" autocomplete="off">
+      </label>
+    </div>
+
+    <p class="page-shell embed-notice" id="embed-notice" hidden>
+      YouTubeの埋め込み再生にはページの参照元情報が必要です。file:// で開いている場合は、VS CodeのLive ServerなどでHTTP経由でページを開いてください。
+    </p>
+    <div class="page-shell" id="artists" aria-live="polite"></div>
+    <aside class="player-dock" id="player-dock" aria-label="YouTubeプレーヤー" hidden></aside>
+  </main>
+
+  <footer class="page-shell">
+    <span data-event="footerLeft"></span>
+    <span data-event="footerRight"></span>
+  </footer>
+
+  <script>
+    let tracks = [];
+
+
+    const artistsElement = document.querySelector("#artists");
+    const searchElement = document.querySelector("#search");
+    const playerDock = document.querySelector("#player-dock");
+    if (location.protocol === "file:") {
+      document.querySelector("#embed-notice").hidden = false;
+    }
+    let artistOrder = [];
+
+    function applyEvent(event) {
+      document.title = event.pageTitle;
+      for (const element of document.querySelectorAll("[data-event]")) {
+        element.textContent = event[element.dataset.event] ?? "";
+      }
+    }
+
+    async function loadData() {
+      try {
+        const response = await fetch("data.json", { cache: "no-cache" });
+        if (!response.ok) throw new Error(response.status);
+        const data = await response.json();
+        tracks = data.tracks;
+        applyEvent(data.event);
+        artistOrder = [...new Set(tracks.map((track) => track.artist))];
+        document.querySelector("#song-total").textContent = String(tracks.length).padStart(2, "0");
+        document.querySelector("#artist-total").textContent = String(artistOrder.length).padStart(2, "0");
+        render();
+      } catch (error) {
+        artistsElement.innerHTML = '<p class="empty-state">data.json を読み込めませんでした。HTTPサーバー経由でページを開いてください。</p>';
+      }
+    }
+
+    function makeLink(url, label, title) {
+      const link = document.createElement("a");
+      link.href = url || "#";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = label;
+      link.title = title;
+      link.setAttribute("aria-label", title);
+      link.hidden = !url;
+      return link;
+    }
+
+    let ytPlayer = null;
+    let currentIndex = -1;
+    let ytApiPromise = null;
+
+    function loadYouTubeApi() {
+      if (ytApiPromise) return ytApiPromise;
+      ytApiPromise = new Promise((resolve, reject) => {
+        if (window.YT && window.YT.Player) return resolve();
+        window.onYouTubeIframeAPIReady = resolve;
+        const script = document.createElement("script");
+        script.src = "https://www.youtube.com/iframe_api";
+        script.onerror = () => { ytApiPromise = null; reject(new Error("YouTube API load failed")); };
+        document.head.append(script);
+      });
+      return ytApiPromise;
+    }
+
+    function videoIdOf(track) {
+      try {
+        return track.video ? new URL(track.video).searchParams.get("v") : null;
+      } catch {
+        return null;
+      }
+    }
+
+    function nextPlayableIndex(from) {
+      for (let i = from + 1; i < tracks.length; i++) {
+        if (videoIdOf(tracks[i])) return i;
+      }
+      return -1;
+    }
+
+    function updatePlayerButtons() {
+      for (const button of artistsElement.querySelectorAll(".track-links button[data-index]")) {
+        const active = Number(button.dataset.index) === currentIndex;
+        const title = tracks[Number(button.dataset.index)].title;
+        button.textContent = active ? "CLOSE" : "PLAY";
+        button.title = active ? "埋め込みプレーヤーを閉じる" : "埋め込みプレーヤーで再生(終了後は次の曲へ連続再生)";
+        button.setAttribute("aria-label", active ? `${title} のプレーヤーを閉じる` : `${title} を埋め込みプレーヤーで再生`);
+        button.setAttribute("aria-expanded", String(active));
+      }
+      for (const card of artistsElement.querySelectorAll(".track")) {
+        card.classList.toggle("is-playing", Number(card.dataset.index) === currentIndex);
+      }
+    }
+
+    function closePlayer() {
+      if (ytPlayer) {
+        ytPlayer.destroy();
+        ytPlayer = null;
+      }
+      currentIndex = -1;
+      playerDock.hidden = true;
+      playerDock.replaceChildren();
+      updatePlayerButtons();
+    }
+
+    function playNext() {
+      const next = nextPlayableIndex(currentIndex);
+      if (next === -1) closePlayer();
+      else playIndex(next);
+    }
+
+    async function playIndex(index) {
+      const videoId = videoIdOf(tracks[index]);
+      if (!videoId) return;
+      currentIndex = index;
+      const track = tracks[index];
+      updatePlayerButtons();
+
+      if (!ytPlayer) {
+        playerDock.replaceChildren();
+        const header = document.createElement("div");
+        header.className = "player-header";
+        const title = document.createElement("span");
+        title.className = "player-title";
+        const nextButton = document.createElement("button");
+        nextButton.type = "button";
+        nextButton.className = "player-close";
+        nextButton.textContent = "⏭";
+        nextButton.title = "次の曲へ";
+        nextButton.setAttribute("aria-label", "次の曲へ");
+        nextButton.addEventListener("click", playNext);
+        const closeButton = document.createElement("button");
+        closeButton.type = "button";
+        closeButton.className = "player-close";
+        closeButton.textContent = "×";
+        closeButton.title = "プレーヤーを閉じる";
+        closeButton.setAttribute("aria-label", "YouTubeプレーヤーを閉じる");
+        closeButton.addEventListener("click", closePlayer);
+        header.append(title, nextButton, closeButton);
+        const frame = document.createElement("div");
+        frame.className = "video-frame";
+        const target = document.createElement("div");
+        frame.append(target);
+        playerDock.append(header, frame);
+        playerDock.hidden = false;
+        try {
+          await loadYouTubeApi();
+        } catch {
+          closePlayer();
+          return;
+        }
+        if (currentIndex === -1) return;
+        const vars = { autoplay: 1, rel: 0, playsinline: 1 };
+        if (location.protocol !== "file:") vars.origin = location.origin;
+        ytPlayer = new YT.Player(target, {
+          videoId: videoIdOf(tracks[currentIndex]),
+          playerVars: vars,
+          events: {
+            onStateChange: (event) => {
+              if (event.data === YT.PlayerState.ENDED) playNext();
+            },
+            onError: playNext,
+          },
+        });
+      } else {
+        ytPlayer.loadVideoById(videoId);
+      }
+      playerDock.querySelector(".player-title").textContent = `${track.artist} — ${track.title}`;
+      updatePlayerButtons();
+    }
+
+    function makePlayerButton(track) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.dataset.index = String(track.index);
+      button.addEventListener("click", () => {
+        if (currentIndex === track.index) closePlayer();
+        else playIndex(track.index);
+      });
+      return button;
+    }
+
+    function render() {
+      const query = searchElement.value.trim().toLocaleLowerCase("ja");
+      artistsElement.replaceChildren();
+      let visibleTrackCount = 0;
+
+      for (const artist of artistOrder) {
+        const artistTracks = tracks
+          .map((track, index) => ({ ...track, index }))
+          .filter((track) => track.artist === artist)
+          .filter((track) => `${track.artist} ${track.title} ${track.detail}`.toLocaleLowerCase("ja").includes(query));
+
+        if (artistTracks.length === 0) continue;
+        visibleTrackCount += artistTracks.length;
+
+        const section = document.createElement("section");
+        section.className = "artist-section";
+        const heading = document.createElement("div");
+        heading.className = "artist-heading";
+        const title = document.createElement("h2");
+        title.textContent = artist;
+        const count = document.createElement("span");
+        count.className = "artist-count";
+        count.textContent = `${String(artistTracks.length).padStart(2, "0")} TRACK${artistTracks.length === 1 ? "" : "S"}`;
+        heading.append(title, count);
+
+        const list = document.createElement("div");
+        list.className = "track-list";
+        for (const track of artistTracks) {
+          const card = document.createElement("article");
+          card.className = "track";
+          card.dataset.index = String(track.index);
+          const number = document.createElement("span");
+          number.className = "track-number";
+          number.textContent = String(track.index + 1).padStart(2, "0");
+
+          const cover = document.createElement("img");
+          cover.className = "cover";
+          cover.src = track.image;
+          cover.alt = "";
+          cover.loading = "lazy";
+          cover.addEventListener("error", () => {
+            const fallback = document.createElement("span");
+            fallback.className = "cover-fallback";
+            fallback.textContent = "♪";
+            cover.replaceWith(fallback);
+          }, { once: true });
+
+          const text = document.createElement("div");
+          const trackTitle = document.createElement("h3");
+          trackTitle.className = "track-title";
+          trackTitle.textContent = track.title;
+          const detail = document.createElement("p");
+          detail.className = "track-detail";
+          detail.textContent = track.detail;
+          text.append(trackTitle, detail);
+
+          const links = document.createElement("div");
+          links.className = "track-links";
+          links.append(makeLink(track.info, "INFO", "曲情報を開く"));
+          if (track.video) links.append(makePlayerButton(track));
+          card.append(number, cover, text, links);
+          list.append(card);
+        }
+
+        if (artistTracks.some((track) => track.surprise)) {
+          const badge = document.createElement("span");
+          badge.className = "surprise";
+          badge.textContent = "SPECIAL GUEST";
+          heading.append(badge);
+        }
+        section.append(heading, list);
+        artistsElement.append(section);
+      }
+
+      if (visibleTrackCount === 0) {
+        const empty = document.createElement("p");
+        empty.className = "empty-state";
+        empty.textContent = "該当する曲が見つかりませんでした。";
+        artistsElement.append(empty);
+      }
+      updatePlayerButtons();
+    }
+
+    searchElement.addEventListener("input", render);
+    loadData();
+  </script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+{
+  "event": {
+    "pageTitle": "なぞの同窓会 Vol.1 — 2部セットリスト",
+    "fanNotice": "★ 非公式ファンサイト / UNOFFICIAL FAN SITE",
+    "fanNoticeSub": "なぞの同窓会 Vol.1",
+    "brand": "NAZO NO DOSOKAI",
+    "venueLabel": "SHIBUYA REX / 2025",
+    "eyebrow": "Reunion Live Setlist",
+    "title": "なぞの同窓会",
+    "subtitle": "VOL. 1 — SECOND SHOW",
+    "note": "新堂敦士・Sana・SASEBO BROTHERS・フレディ波多江・MAKI・すわひでお が集う、一夜限りの同窓会ライブ。",
+    "date": "2025.05.24",
+    "dateNote": "SATURDAY / SHIBUYA REX",
+    "showCount": "02",
+    "listLabel": "THE SETLIST / 2部",
+    "footerLeft": "なぞの同窓会 Vol.1 — 2部セットリスト",
+    "footerRight": "2025年5月24日 / 渋谷REX"
+  },
+  "tracks": [
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/9/93/STREET-popn6banner.png/revision/latest?cb=20250414161837",
+      "title": "Flapper",
+      "detail": "Pop'n Music 6 (CS) · ストリート",
+      "info": "https://popnmusic.fandom.com/wiki/Flapper",
+      "video": "https://www.youtube.com/watch?v=tEO6CXEdX1I"
+    },
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/8/86/CS7_SHUFFLE.png/revision/latest/scale-to-width-down/268?cb=20130611140900",
+      "title": "エピキュリアンへの少数意見",
+      "detail": "Pop'n Music 7 (CS) · シャッフル",
+      "info": "https://popnmusic.fandom.com/wiki/Epicurean_he_no_Shousuiken",
+      "video": "https://www.youtube.com/watch?v=QW9LVdQ6bGs"
+    },
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/4/44/CS8_MEDIUM.png/revision/latest?cb=20250408181619",
+      "title": "顔について",
+      "detail": "Pop'n Music 8 (CS) · ミディアム",
+      "info": "https://popnmusic.fandom.com/wiki/Kao_ni_tsuite",
+      "video": "https://www.youtube.com/watch?v=9LxlBpzYcrY"
+    },
+    {
+      "artist": "SASEBO BROTHERS",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/a/a2/CS8_HOT_ROCK.png/revision/latest?cb=20250408011842",
+      "title": "Cryin'",
+      "detail": "Pop'n Music 8 (CS) · ホットロック",
+      "info": "https://popnmusic.fandom.com/wiki/Cryin%27",
+      "video": "https://www.youtube.com/watch?v=yey6TIbS3Gs"
+    },
+    {
+      "artist": "すわひでお",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/e/e8/CS7_PUMP.png/revision/latest/scale-to-width-down/268?cb=20120606000200",
+      "title": "ステテコ捨てていこう",
+      "detail": "Pop'n Music 7 (CS) · パンプ",
+      "info": "https://popnmusic.fandom.com/wiki/Suteteko_sutete_ikou",
+      "video": "https://www.youtube.com/watch?v=6pCUhGEAkxk"
+    },
+    {
+      "artist": "すわひでお",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/2/25/CS8_KESHIGOMU.png/revision/latest?cb=20250325141022",
+      "title": "School Life",
+      "detail": "Pop'n Music 8 (CS) · ケシゴム",
+      "info": "https://popnmusic.fandom.com/wiki/School_Life",
+      "video": "https://www.youtube.com/watch?v=SUGyM7gQv_4"
+    },
+    {
+      "artist": "すわひでお",
+      "image": "https://pbs.twimg.com/profile_images/634319976871018496/sO4lir_E_400x400.jpg",
+      "title": "僕は崖っぷち",
+      "detail": "アニメ「ボンバーマンジェッターズ」OP曲",
+      "video": "https://www.youtube.com/watch?v=NvtEEUTbeu8"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/2/26/8_HOUSY_POP.png/revision/latest?cb=20241211215355",
+      "title": "会社はワタシで廻ってる!?",
+      "detail": "Pop'n Music 8 (AC) · ハウシーポップ",
+      "info": "https://popnmusic.fandom.com/wiki/Sekai_wa_watashi_de_mawatteru!%3F",
+      "video": "https://www.youtube.com/watch?v=0U5FFXVatIw"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://u-watch.jp/entertainments/apps/img/single/SID0032915.webp",
+      "title": "チェリ・ガール",
+      "detail": "アニメ「わがまま☆フェアリーミルモでポン!ちゃあみんぐ」ED曲",
+      "video": "https://www.youtube.com/watch?v=83etlu9hezU"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://u-watch.jp/entertainments/apps/img/single/SID0032913.webp",
+      "title": "僕のトナリ",
+      "detail": "アニメ「わがまま☆フェアリー ミルモでポン! わんだほう」ED曲",
+      "video": "https://www.youtube.com/watch?v=xmDMokKYrNw"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/5/55/10_TRENDY_POP.png/revision/latest?cb=20241130205445",
+      "title": "Go Easy !!",
+      "detail": "pop'n music 10 (AC) · トレンディポップ",
+      "info": "https://popnmusic.fandom.com/wiki/Go_Easy!!",
+      "video": "https://www.youtube.com/watch?v=3bIvJK5fgS4"
+    },
+    {
+      "artist": "Sana",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/8/8e/CS2_J-GARAGE_POP.png/revision/latest?cb=20250410234432",
+      "title": "Miracle Moon",
+      "detail": "Pop'n Music 3 · Jガラージポップ / beatmania APPEND GOTTAMIX",
+      "info": "https://popnmusic.fandom.com/wiki/Miracle_Moon(Otsukisama_ga_chuukeikyoku)",
+      "video": "https://www.youtube.com/watch?v=NJJ18aB2Ggk"
+    },
+    {
+      "artist": "大浦祐一",
+      "image": "https://www.neowing.co.jp/pictures/l/09/01/GBCM-11.jpg?v=1",
+      "title": "Stay",
+      "detail": "ときめきメモリアル Girl's Side 2nd Kiss",
+      "info": "https://www.neowing.co.jp/product/GBCM-11",
+      "video": "https://www.youtube.com/watch?v=AlQM7RjcNGo",
+      "surprise": true
+    },
+    {
+      "artist": "ナスカだいし",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/d/d0/CS10_NEO_FOLK_ROCK.png/revision/latest?cb=20250419130920",
+      "title": "セカンドステージ",
+      "detail": "Pop'n Music 10 (CS) · ネオフォークロック",
+      "info": "https://popnmusic.fandom.com/wiki/Second_Stage",
+      "video": "https://www.youtube.com/watch?v=C7hfg5iR69g"
+    },
+    {
+      "artist": "ナスカだいし",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/0/0e/CS11_NEO_FOLK_ROCK_2.png/revision/latest?cb=20250326001349",
+      "title": "ヒカリ",
+      "detail": "Pop'n Music 11 (CS) · ネオフォークロック2",
+      "info": "https://popnmusic.fandom.com/wiki/HIKARI",
+      "video": "https://www.youtube.com/watch?v=bGnE5tYZc0k"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/1/1e/3_POWERFOLK.png/revision/latest?cb=20250206025332",
+      "title": "なんか変だ！",
+      "detail": "Pop'n Music 3 (AC) · パワーフォーク",
+      "info": "https://popnmusic.fandom.com/wiki/Nanka_hen_da!",
+      "video": "https://www.youtube.com/watch?v=ZTqLuVJ7U5g"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/8/84/9_CYBER_ROCKABILLY.png/revision/latest/scale-to-width-down/268?cb=20121008142209",
+      "title": "Dynamic! Atomic! S.C.B.G",
+      "detail": "Pop'n Music 10 (AC) · サイバーロカビリー",
+      "info": "https://popnmusic.fandom.com/wiki/Dynamic!_Atomic!_S.C.B.G._~ver.1~",
+      "video": "https://www.youtube.com/watch?v=rxvWwnYqplQ"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/e/e0/7_POWERFOLK_5.png/revision/latest?cb=20250525205432",
+      "title": "サムライ・シンドローム",
+      "detail": "Pop'n Music 7 (AC) · パワーフォーク5",
+      "info": "https://popnmusic.fandom.com/wiki/Samurai_Syndrome",
+      "video": "https://www.youtube.com/watch?v=g6u8G-QOrTw"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/d/d6/8_POWERFOLK_6.png/revision/latest?cb=20241212015849",
+      "title": "Fashion",
+      "detail": "Pop'n Music 8 (AC) · パワーフォーク6",
+      "info": "https://popnmusic.fandom.com/wiki/Fashion_%EF%BD%9Ever.1%EF%BD%9E",
+      "video": "https://www.youtube.com/watch?v=Tyr7ZDNaUMo"
+    },
+    {
+      "artist": "新堂敦士",
+      "image": "https://static.wikia.nocookie.net/popnmusic/images/b/be/4_POWER_FOLK_2.png/revision/latest?cb=20250121173807",
+      "title": "君を壊したい",
+      "detail": "Pop'n Music 4 (AC) · パワーフォーク2",
+      "info": "https://popnmusic.fandom.com/wiki/Kimi_wo_kowashitai",
+      "video": "https://www.youtube.com/watch?v=poWgWdOwj00"
+    }
+  ]
+}
