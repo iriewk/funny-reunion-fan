@@ -1,20 +1,20 @@
 {
   "event": {
-    "pageTitle": "?????? Vol.2 ? 2???????",
+    "pageTitle": "なぞの同窓会 Vol.2 ― 2部セットリスト",
     "fanNotice": "★ 非公式ファンサイト / UNOFFICIAL FAN SITE",
-    "fanNoticeSub": "?????? Vol.2",
+    "fanNoticeSub": "なぞの同窓会 Vol.2",
     "brand": "NAZO NO DOSOKAI",
     "venueLabel": "AKABANE ReNY alpha / 2026",
     "eyebrow": "Reunion Live Setlist",
     "title": "なぞの同窓会",
-    "subtitle": "VOL. 2 ? SECOND SHOW",
-    "note": "?????Sana?SASEBO BROTHERS?????????MAKI?????? ?????????????2??",
+    "subtitle": "VOL. 2 ・ SECOND SHOW",
+    "note": "非公式ファンサイトです。2026年1月11日 赤羽ReNY alpha 2部のセットリストを掲載しています。",
     "date": "2026.01.11",
     "dateNote": "SUNDAY / AKABANE ReNY alpha",
     "showCount": "02",
     "listLabel": "THE SETLIST / 2部",
-    "footerLeft": "?????? Vol.2 ? 2???????",
-    "footerRight": "2026?1?11? / ??ReNY alpha"
+    "footerLeft": "なぞの同窓会 Vol.2 ― 2部セットリスト",
+    "footerRight": "2026年1月11日 / 赤羽ReNY alpha"
   },
   "tracks": [
     {
@@ -50,7 +50,7 @@
       "video": ""
     },
     {
-      "artist": "",
+      "artist": "MAKI",
       "image": "https://remywiki.com/images/thumb/4/40/Less.png/200px-Less.png",
       "title": "less",
       "detail": "GUITARFREAKS 9thMIX drummania 8thMIX",
@@ -58,7 +58,7 @@
       "video": "https://www.youtube.com/watch?v=3qr6wMQh4ss"
     },
     {
-      "artist": "",
+      "artist": "MAKI",
       "image": "https://sho.jp/wp-content/uploads/2021/06/bb210618_001.jpg",
       "title": "おどってにゅうダンス",
       "detail": "TV番組「シナぷしゅ」より",
@@ -66,7 +66,7 @@
       "video": "https://www.youtube.com/watch?v=ZJChxX31jg8"
     },
     {
-      "artist": "",
+      "artist": "MAKI",
       "image": "https://static.wikia.nocookie.net/popnmusic/images/2/21/7_SHOWA_KAYO.png/revision/latest?cb=20250526175617",
       "title": "林檎と蜂蜜",
       "detail": "Pop'n Music 7 (AC) ショウワカヨウ",
